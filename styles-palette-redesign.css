@@ -119,8 +119,8 @@ button {
 
 .brand-mark {
   display: grid;
-  width: 38px;
-  height: 38px;
+  width: 45px;
+  height: 45px;
   place-items: center;
   border-radius: 12px;
   color: #2b4546;
@@ -872,4 +872,23 @@ footer {
 
 footer {
   background: rgba(255, 255, 255, 0.38);
+}
+
+.logo-footer {
+  border-radius: 12px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 50px;
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
